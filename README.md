@@ -30,10 +30,12 @@ sudo pacman -S rclone fuse3
 ⚙️ Quick Start
 
 1. Installation: Open your terminal and run the following command to set up the mount and the desktop shortcut:
-Bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/premiumize-rclone-mounter/main/install.sh | bash
 
-2. Post-Install: (GNOME Users)If you are using the GNOME desktop environment, you will see the Premiumize Cloud icon appear on your desktop.Right-click the icon.Select "Allow Launching" to enable the shortcut.
+Bash
+
+curl -sSL https://raw.githubusercontent.com/700zx1/premiumize-rclone-mounter/main/install.sh | bash
+
+2. Post-Install: (GNOME Users)  If you are using the GNOME desktop environment, you will see the Premiumize Cloud icon appear on your desktop. Right-click the icon.Select "Allow Launching" to enable the shortcut.
 
 📂 How to Use
 
@@ -46,8 +48,10 @@ Unmounting: Double-click the icon again to safely disconnect the cloud drive.
 🗑️ Uninstallation:
 
 To remove the background service, the desktop shortcut, and the rclone configuration, run:
+
 Bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/premiumize-rclone-mounter/main/uninstall.sh | bash
+
+curl -sSL https://raw.githubusercontent.com/700zx1/premiumize-rclone-mounter/main/uninstall.sh | bash
 
 ⚙️ Customization
 
